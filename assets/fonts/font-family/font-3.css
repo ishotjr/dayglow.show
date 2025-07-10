@@ -1,0 +1,25 @@
+
+/* 
+* Template Name    : Treelike, the best "link in bio template".
+* Author           : Jorge Perez
+* Version          : 2.0.0
+* Updated          : June 2023
+* File Description : Font #3: Roboto */
+
+/* Replace the url below with your own if needed. */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+/* Make sure to also replace the font family as well, if needed. */
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+}

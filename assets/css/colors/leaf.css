@@ -1,0 +1,96 @@
+/* 
+* Template Name    : Treelink, the best "link in bio" responsive template.
+* Author           : Jorge Perez
+* Version          : 2.0.0
+* Updated          : June 2023
+* File Description : Leaf Mode CSS.
+This affects the color of: text highlights, buttons, bg, social media icons, form & toggle switch */
+
+    /*===================================
+        Background Color
+    =====================================*/
+    body {
+        background-color: #F5F7F9;
+    }
+    
+    /*===================================
+        Custom Text Color
+    =====================================*/
+    .custom-text-color-primary {
+        color: rgb(57, 224, 155);
+    }
+
+    .custom-text-color-secondary {
+        color: #606060;
+    }
+
+    /*===================================
+        Img Rounded Circle Border Color
+    =====================================*/
+    .rounded-circle {
+        border: 2px solid rgb(255, 255, 255, 0.35);
+    }
+    
+    /*===================================
+        Back To Top Color
+    =====================================*/
+    .back_top {
+        background-color: rgb(57, 224, 155);
+    }
+
+    .back_top i {
+        color: #fff;
+    }
+
+    /*===================================
+        Social Icons
+    =====================================*/
+    .about-social li a {
+        color: rgb(255, 255, 255);
+        background-color: rgb(57, 224, 155);
+        border: 1px solid rgb(57, 224, 155);
+        box-shadow: 2px 5px 8px rgba(0,0,0,30%);
+    }
+    
+    .about-social li a:hover {
+        border: 1px solid rgb(57, 224, 155);
+        color: rgb(57, 224, 155);
+        background-color: #F5F7F9;
+    }
+    
+    /*===================================
+        Main Buttons
+    =====================================*/
+    .btn-custom {
+        color: rgb(255, 255, 255);
+        border: 1px solid rgb(57, 224, 155);
+        background-color: rgb(57, 224, 155);
+        box-shadow: 2px 3px 7px rgba(0,0,0,40%);
+    }
+    
+    .btn-custom:hover,
+    .btn-custom:focus,
+    .btn-custom:active,
+    .btn-custom.active,
+    .btn-custom.focus,
+    .btn-custom:active,
+    .btn-custom:focus,
+    .btn-custom:hover,
+    .open > .dropdown-toggle.btn-custom {
+        color: rgb(57, 224, 155);
+        background-color: #F5F7F9;
+        border: 1px solid rgb(57, 224, 155);
+    }
+
+    /*===================================
+        Toggle Switch Colors
+    =====================================*/
+    .form-check-input {
+        background-color: rgb(57, 224, 155);
+        border-color: #fff;
+    }
+
+    .form-check-input:checked {
+        background-color: #aaa;
+        border-color: #606060;
+    }

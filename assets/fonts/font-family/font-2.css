@@ -1,0 +1,27 @@
+
+/* 
+* Template Name    : Treelike, the best "link in bio template".
+* Author           : Jorge Perez
+* Version          : 2.0.0
+* Updated          : June 2023
+* File Description : Font #2: Nunito/Montserrat */
+
+/* Replace the url below with your own if needed. */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600|Nunito:400,600,700');
+
+/* Make sure to also replace the font family as well, if needed. */
+body {
+    font-family: 'Nunito', sans-serif;
+    overflow-x: hidden;
+    font-weight: 600;
+    line-height: 1.25rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}

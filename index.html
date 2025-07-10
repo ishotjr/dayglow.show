@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>DAY//GLOW</title>
+
+    <meta name="description"
+        content="Alex Glow and David Groom dig into DIY electronics!" />
+
+    <meta name="keywords" content="Alex Glow David Groom ishotjr maker DIY electronics livestream" />
+
+    <meta name="author" content="https://ishjr.com/" />
+
+    <!-- <link rel="shortcut icon" href="assets/images/TODO.png"> -->
+
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    <div id="preloader">
+        <div id="status">
+            <div class="spinner">Loading...</div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg custom-nav">
+        <div class="container" style="max-width: 680px">
+
+            <button class="navbar-toggler ms-auto" type="button" data-bs-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <li class="nav-item form-check form-switch">
+                    <input class="nav-link form-check-input" type="checkbox" onchange="toggle()"
+                        id="flexSwitchCheckDefault">
+                </li>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto" id="main_nav">
+
+                    <li class="nav-item form-check form-switch">
+                        <input class="nav-link form-check-input" type="checkbox" onchange="toggle()"
+                            id="flexSwitchCheckDefault">
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container" style="max-width: 680px" id="header-section">
+        <div class="col-lg-12">
+            <div class="mt-0">
+<!-- 
+                <img class="rounded-circle img-fluid mx-auto d-block" src="assets/images/DG.png"
+                    alt="DAY//GLOW">
+                     -->
+            </div>
+
+            <div class="header-content text-center mx-auto">
+
+                <h4 class="custom-text-color-primary header-text mb-2 mt-3">DAY//GLOW</h4>
+
+                <p class="custom-text-color-secondary subheader-text mb-2">We're <span class="element"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" style="max-width: 680px" id="main-buttons">
+
+        <div class="mt-3 pt-2">
+            <a href="https://www.youtube.com/playlist?list=PLwWiFinxwDlgomKdWjfaavDbMRdhHhfqQ" style="width: 100%" class="btn btn-round btn-custom">YouTube (Alex) <i class="bi bi-youtube"></i></a>
+        </div>
+
+        <div class="mt-3 pt-2">
+            <a href="https://www.youtube.com/playlist?list=PLoHh3GdjF7AGJ-dg4lmwdSNmVCPBr7aOn" style="width: 100%" class="btn btn-round btn-custom">YouTube (David) <i class="bi bi-youtube"></i></a>
+        </div>
+
+        <div class="mt-3 pt-2">
+            <a href="https://exposed.ishotjr.com/" style="width: 100%" class="btn btn-round btn-custom">Newsletter (David) <i class="bi bi-envelope-paper-heart"></i></a>
+        </div>
+
+        <div class="mt-3 pt-2">
+            <a href="https://glow-ahead.ghost.io/" style="width: 100%" class="btn btn-round btn-custom">Newsletter (Alex) <i class="bi bi-envelope-paper-heart-fill"></i></a>
+        </div>
+<!-- 
+        <div class="mt-3 pt-2">
+            <a href="https://discord.gg/m95CRuaGTn" style="width: 100%" class="btn btn-round btn-custom">Discord <i class="bi bi-discord"></i></a>
+        </div> 
+-->
+        <div class="mt-3 pt-2">
+            <a href="https://www.linkedin.com/in/alexglow/" style="width: 100%" class="btn btn-round btn-custom">LinkedIn (Alex) <i class="bi bi-linkedin"></i></a>
+        </div>
+
+        <div class="mt-3 pt-2">
+            <a href="https://www.linkedin.com/in/davidjgroom/" style="width: 100%" class="btn btn-round btn-custom">LinkedIn (David) <i class="bi bi-linkedin"></i></a>
+        </div>
+
+        <div class="mt-3 pt-2">
+            <a href="https://docs.google.com/document/d/1-NIYHOKt67-GS_-kcYdilcIbWsBmJv-I8I9j-5nalC0/edit?tab=t.0" style="width: 100%" class="btn btn-round btn-custom">Episode 1: Thumby Throwdown live collab notes <i class="bi bi-file-earmark-text"></i></a>
+        </div>
+
+        <div class="mt-3 pt-2">
+            <a href="https://docs.google.com/document/d/17BwE5xbb0caxVqcyjhz9XcOsMhKJNEeW4mjvD_a_9ZY/edit?tab=t.0" style="width: 100%" class="btn btn-round btn-custom">Episode 2: PicoCalc &amp; Teardown Reflections live collab notes <i class="bi bi-file-earmark-text"></i></a>
+        </div>
+        
+    </div>
+
+    <div class="container" id="footer">
+        <div class="col-md-12">
+            <div class="mb-4 text-center">
+<!-- 
+                <div>
+                    <ul class="about-social list-inline mt-5 text-center">
+
+                        <li class="list-inline-item"><a href="#" target="_blank"><i class="bi bi-instagram"></i></a>
+                        </li>
+
+                        <li class="list-inline-item"><a href="#" target="_blank"><i class="bi bi-twitter-x"></i></a>
+                        </li>
+
+                        <li class="list-inline-item"><a href="#" target="_blank"><i class="bi bi-threads"></i></a>
+                        </li>
+
+                        <li class="list-inline-item"><a href="#" target="_blank"><i class="bi bi-tiktok"></i></a></li>
+
+                        <li class="list-inline-item"><a href="#" target="_blank"><i class="bi bi-meta"></i></a></li>
+
+                    </ul>
+                </div>
+-->
+
+                <p class="custom-text-color-secondary footer-text mb-5 mt-3">©2025 - DAY//GLOW</p>
+
+            </div>
+        </div>
+    </div>
+
+    <a href="#home" class="back_top" style="border-radius: 50%;"><i class="bi bi-chevron-up"></i></a>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+
+    <script src="assets/js/typed.js"></script>
+
+    <script src="assets/js/custom.js"></script>
+
+    <script>
+        var typed = new Typed('.element', {
+
+            strings: ["Hacking 🤘", "Making 🛠️", "Livestreaming 📹"],
+
+            typeSpeed: 40,
+            backSpeed: 40,
+            backDelay: 1600,
+            loop: true
+
+        });
+    </script>
+
+    <link id="style1" rel="stylesheet" type="text/css" href="assets/css/colors/light-mode.css" />
+    <link id="style2" rel="stylesheet" type="text/css" href="assets/css/colors/dark-mode.css" disabled="disabled" />
+
+    <script type="text/javascript">
+        function toggle() {
+            var el = document.getElementById("style1");
+            if (el.href.match("assets/css/colors/light-mode.css")) {
+                el.href = "assets/css/colors/dark-mode.css";
+            }
+            else {
+                el.href = "assets/css/colors/light-mode.css";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
